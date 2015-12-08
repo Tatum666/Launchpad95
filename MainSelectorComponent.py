@@ -36,7 +36,7 @@ class MainSelectorComponent(ModeSelectorComponent):
 		self._main_mode_index = 0
 		self._sub_mode_index = [0, 0, 0, 0]
 		for index in range(4):
-			self._sub_mode_index[index] = 0
+			self._sub_mode_index[index] = 1
 		self.set_mode_buttons(top_buttons[4:])
 			
 		if Settings.SESSION__STOP_BUTTONS:
